@@ -1,0 +1,38 @@
+﻿<?php
+return array(
+    'changeCity' => '切换城市',
+    'signIn' => '登录',
+    'register' => '注册',
+    'title' => '华人比邻->用户注册',
+    'userName' => '用户名',
+    'email' => '注册邮箱',
+    'createPwd' => '密码',
+    'confirmPwd' => '确认密码',
+    'next' => '注册',
+    'login' => '登录',
+    'about' => '关于',
+    'contact' => '联系我们',
+    'privacy' => '隐私声明',
+    'termUse' => '使用条款',
+    'fillName' => '请填写用户名',
+    'nameEmpty' => '用户名不能为空',
+    'fillEmail' => '请填写邮箱',
+    'emailEmpty' => '邮箱不能为空',
+    'emailError' => '邮箱格式错误',
+    'fillPwd' => '请填写密码',
+    'pwdEmpty' => '密码不能为空',
+    'fillConfirmPwd' => '请确认密码',
+    'confirmPwdEmpty' => '不能为空',
+    'twoPwdDiff' => '两次输入的密码不同',
+
+    'emailRegistered' => '此邮箱已被注册',
+    'nameRegistered' => '此用户名已被注册',
+    'activationInfo' => '请到您的注册邮箱确认激活此账号',
+    'registerFalse' => '注册失败',
+
+    'haveRegister' => '已经注册过？',
+    'loginType' => '你还可以尝试一下登录方式：',
+    'log_out' => '退出',
+    'title_reg' => '华人比邻用户注册',
+);
+?>

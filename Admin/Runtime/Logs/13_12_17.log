@@ -1,0 +1,19 @@
+[ 2013-12-17T18:01:22+08:00 ] 176.102.37.92 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009521s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033133s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/cluster1/data/h/n/2222382/html/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/cluster1/data/h/n/2222382/html/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.008823s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.013138s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007773s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037774s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009809s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009990s ]
+

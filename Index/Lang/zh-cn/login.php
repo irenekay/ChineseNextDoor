@@ -1,0 +1,30 @@
+<?php
+return array(
+    'nickName' => '账号',
+    'password' => '密码',
+    'verifi' => '验证码',
+    'autoLogin' => '自动登录',
+    'signIn' => '登 录',
+    'findPw' => '找回密码',
+    'register' => '注册',
+    'about' => '关于',
+    'contact' => '联系我们',
+    'privacy' => '隐私声明',
+    'termUse' => '使用条款',
+    'changeCity' => '切换城市',
+    'home' => '主页',
+    'reg' => '注册',
+    'usernameEmpty' => '账号不能为空',
+    'passwordEmpty' => '密码不能为空',
+    'activated' => '此账户未被激活',
+    'VerifError' => '验证码错误',
+    'userNameError' => '账号不存在',
+    'loginSucess' => '登录成功...',
+    'passwordError' => '密码错误',
+    'title' => '华人比邻->用户登录',
+
+    'noRegister' => '还没有注册？',
+    'loginSty' => '你还可以尝试以下登录方式：',
+    'title_login' => '华人比邻用户登录',
+);
+?>

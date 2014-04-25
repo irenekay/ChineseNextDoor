@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{$Think.lang.Chinese_next_door}</title>
+    <meta name="Keywords" content="Chinese next door,isting services,US Chinese,classifieds sites,Free post Ads">
+    <meta name="Description" content="Chinese Next Door provides local classifieds for jobs,housing,for sale,personals,services,local community,and events for US Chinese">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/style.css"/>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-49818260-1', 'bilinabroad.com');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+<body style="height:auto !important; min-height:600px; _height:700px; overflow-y: hidden;">
+    <?php include_once("../../Common/analyticstracking.php") ?>
+    <div class="wraper">
+        <div class="heads">
+           <div class="logo"> <a href="/"><img src="__PUBLIC__/images/t_logo.gif"></a> </div>
+            <div>
+                <div class="h_title"><a href="__APP__/Content">Chinese next door</a>->
+                    <if condition="$act eq about">{$Think.lang.about}
+                    <elseif condition="$act eq contact"/>{$Think.lang.contact_us}
+                    <elseif condition="$act eq privacy"/>{$Think.lang.privacy_policy}
+                    <elseif condition="$act eq terms"/>{$Think.lang.terms_of_use}
+                    </if>
+                </div>
+                <div id="top_banner" class="h_right"> </div>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="sid_nav">
+                <ul>
+                    <li><a href="__APP__/About/index/act/about" id="id_about">{$Think.lang.about}</a></li>
+                    <li><a href="__APP__/About/index/act/contact" id="id_contact">{$Think.lang.contact_us}</a></li>
+                    <li><a href="__APP__/About/index/act/privacy" id="id_privacy">{$Think.lang.privacy_policy}</a></li>
+                    <li><a href="__APP__/About/index/act/terms" id="id_terms">{$Think.lang.terms_of_use}</a></li>
+                </ul>
+            </div>
+            <div class="conr">
+                <if condition="$act eq about">
+                    <h2 class="rtit_about">{$Think.lang.Description}</h2>
+                    <div class="anbotcom">
+                        <p>{$Think.lang.next_door}（<a href="http://www.bilinabroad.com/">www.bilinabroad.com</a>）{$Think.lang.content_description}</p>
+                        <p><strong>{$Think.lang.website_creation} </strong></p>
+                        <p>{$Think.lang.content_creation}</p>
+                        <p><strong>{$Think.lang.mission} </strong></p>
+                        <p>{$Think.lang.ontent_mission}</p>
+                    </div>
+                <elseif condition="$act eq contact"/>
+                    <h2 class="rtit_about">{$Think.lang.contact_us}</h2>
+                    <div class="anbotcom">
+                        <p>{$Think.lang.contact_tel}</p>
+                        <p>{$Think.lang.contact_email}</p>
+                        <p>{$Think.lang.contact_cooperation}</p>
+                        <p>{$Think.lang.contact_opinion}</p>
+                        <p>{$Think.lang.contact_convenience}</p>
+                    </div>
+                <elseif condition="$act eq privacy"/>
+                    <h2 class="rtit_about">{$Think.lang.privacy_policy}</h2>
+                    <div class="anbotcom">
+                        <p>{$Think.lang.privacy_1}</p>
+                        <p>{$Think.lang.privacy_2}</p>
+                        <p>{$Think.lang.privacy_3}</p>
+                        <p>{$Think.lang.privacy_4}</p>
+                        <p>Bilinabroad has established this privacy policy to explain to you how your information is protected, which may be updated by craigslist from time to time. Bilinabroad will provide notice of materially significant changes to this privacy policy by posting notice on the bilinabroad site.</p>
+                    </div>
+                <elseif condition="$act eq terms"/>
+                    <h2 class="rtit_about">{$Think.lang.terms_of_use}</h2>
+                    <div class="anbotcom">
+                        <p>{$Think.lang.terms_of_use_1}</p>
+                        <p>{$Think.lang.terms_of_use_2}</p>
+                        <p>{$Think.lang.terms_of_use_3}</p>
+                        <p>{$Think.lang.terms_of_use_4}</p>
+                    </div>
+                </if>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <p>
+            <a href="__APP__/About/index/act/about">{$Think.lang.about}&nbsp;&nbsp;|</a>
+            <a href="__APP__/About/index/act/contact">&nbsp;&nbsp;{$Think.lang.contact_us}&nbsp;&nbsp;|</a>
+            <a href="__APP__/About/index/act/privacy">&nbsp;&nbsp;{$Think.lang.privacy_policy}&nbsp;&nbsp;|</a>
+            <a href="__APP__/About/index/act/terms">&nbsp;&nbsp;{$Think.lang.terms_of_use}</a>
+            <if condition="($Think.session.cityname eq 'boston') OR ($Think.session.cityname eq '波士顿') ">
+                    <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=447e193ad02f2c2f44ba9ed92455b7e71b5b73bf81f88b2d6136a96e8c4aa3f9"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="比邻波士顿租房买车群" title="比邻波士顿租房买车群"></a>
+            </if>
+        </p>
+    </div>
+</div>
+    <script language="JavaScript" type="text/javascript">
+            function begin(){
+                var par = '<?php echo $act ?>';
+                if (par=="about") 
+                    document.getElementById("id_about").className = "par";
+                else if(par=="contact")
+                    document.getElementById("id_contact").className = "par";
+                else if (par=="privacy") 
+                    document.getElementById("id_privacy").className = "par";
+                else if (par=="terms")
+                    document.getElementById("id_terms").className = "par";
+            }
+            window.onload = begin;
+    </script>
+</body>
+</html>
